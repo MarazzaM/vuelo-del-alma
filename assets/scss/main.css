@@ -12171,9 +12171,10 @@ article {
   border-radius: 1rem;
 }
 
-#cardone {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+/*========== CURSOS JS ANIMATION ==========*/
+.card-img-top {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 /*========== VERTICAL CARDS ==========*/
@@ -12264,6 +12265,10 @@ article {
     width: 100%;
     height: 100%;
   }
+}
+
+.paren3 {
+  margin-top: 1rem;
 }
 
 .div1about {

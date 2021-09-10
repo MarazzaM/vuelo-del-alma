@@ -156,9 +156,10 @@ article{
 .d-block{
     border-radius: 1rem;
 }
+/*========== CURSOS JS ANIMATION ==========*/
 //transition en js
-#cardone{
-    transition: all 0.3s ease;
+.card-img-top{
+    transition: all 0.4s ease;
 }
 /*========== VERTICAL CARDS ==========*/
 
@@ -233,7 +234,9 @@ article{
     }
     
 }
-
+.paren3{
+    margin-top: 1rem;
+}
 .div1about{
     background: url(/assets/img/azucena.jpeg);
     background-repeat: no-repeat;

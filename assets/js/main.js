@@ -20,19 +20,78 @@ anime.timeline({loop: true})
  
 
   /*==================== MOUSE OVER IMGS ==================== */
+
+  //first img
 let test = document.getElementById("cardone");
 
 // This handler will be executed only once when the cursor
 // moves over the unordered list
 test.addEventListener("mouseenter", function( event ) {
   // highlight the mouseenter target
-  event.target.src = "assets/img/tiny.jpg";
-  event.target.style.scale = "1.1";
+  event.target.src = "assets/img/cursos/cardd2.png";
+  event.target.style.scale = "1.2";
 
   
 }, false);
 
 test.addEventListener("mouseout", function( event ) {
   // highlight the mouseout target
-  event.target.src = "assets/img/tiny.jpg";
+  event.target.src = "assets/img/cursos/cardd1.png";
   event.target.style.scale = "1";})
+
+  //second img
+
+  let test2 = document.getElementById("cardtwo");
+
+  // This handler will be executed only once when the cursor
+  // moves over the unordered list
+  test2.addEventListener("mouseenter", function( event ) {
+    // highlight the mouseenter target
+    event.target.src = "assets/img/cursos/yogacard.jpeg";
+    event.target.style.scale = "1.2";
+  
+    
+  }, false);
+  
+  test2.addEventListener("mouseout", function( event ) {
+    // highlight the mouseout target
+    event.target.src = "assets/img/cursos/yogacard1.jpeg";
+    event.target.style.scale = "1";})
+
+//third img
+let test3 = document.getElementById("cardthree");
+
+  // This handler will be executed only once when the cursor
+  // moves over the unordered list
+  test3.addEventListener("mouseenter", function( event ) {
+    // highlight the mouseenter target
+    event.target.src = "assets/img/cursos/reiki2.jpg";
+    event.target.style.scale = "1.2";
+  
+    
+  }, false);
+  
+  test3.addEventListener("mouseout", function( event ) {
+    // highlight the mouseout target
+    event.target.src = "assets/img/cursos/reiki1.jpg";
+    event.target.style.scale = "1";})
+  
+
+//fourth img
+let test4 = document.getElementById("cardfour");
+
+  // This handler will be executed only once when the cursor
+  // moves over the unordered list
+  test4.addEventListener("mouseenter", function( event ) {
+    // highlight the mouseenter target
+    event.target.src = "assets/img/cursos/munay-ki1.jpg";
+    event.target.style.scale = "1.1";
+  
+    
+  }, false);
+  
+  test4.addEventListener("mouseout", function( event ) {
+    // highlight the mouseout target
+    event.target.src = "assets/img/cursos/munay-ki.jpeg";
+    event.target.style.scale = "1";})
+  

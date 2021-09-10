@@ -12148,6 +12148,7 @@ article {
 
 .description-div1, .description-div2 {
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
@@ -12186,7 +12187,7 @@ article {
   padding: 0.3rem;
   background: rgba(6, 156, 84, 0);
   border-radius: 0.4rem;
-  z-index: 10000;
+  z-index: 99;
   font-size: 3rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -12355,5 +12356,13 @@ article {
 
 .btn-primary a:hover {
   color: whitesmoke;
+}
+
+.offcanvas-body {
+  z-index: 100;
+}
+
+.div2about {
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */

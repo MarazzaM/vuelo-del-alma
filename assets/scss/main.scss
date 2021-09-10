@@ -127,13 +127,14 @@ article{
     
   }
   //acomodar texto al medio
-.description-div1, .description-div2, .tittle-div-1, .tittle-div-2, .div3about,.foot{
+.description-div1, .description-div2, .tittle-div-1, .tittle-div-2, .div3about,.foot,{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .description-div1, .description-div2{
     font-size: $h3-font-size;
+    font-weight: $font-media;
 }
 //background text
 @media screen and (min-width:$desktop){
@@ -165,7 +166,7 @@ article{
     padding: 0.3rem;
     background: rgba(6, 156, 84, 0);
     border-radius: 0.4rem;
-    z-index: 10000;
+    z-index: 99;
     font-size: $icon-font;
     transition: 0.3s;
     background: -webkit-linear-gradient(#fdf497 0%,
@@ -266,10 +267,11 @@ article{
     text-align: center;
     text-transform: uppercase;
 }
+//buton linkedin
 #btnlinkedin:hover{
     color: whitesmoke;
 }
-
+//buttons lists
 .btn-primary{
     a{
     color:white;
@@ -277,4 +279,10 @@ article{
         color: whitesmoke;
              }
     }
+}
+.offcanvas-body{
+    z-index: $z-fixed;
+}
+.div2about{
+    margin: auto;
 }

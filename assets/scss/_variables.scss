@@ -8,7 +8,7 @@ $colors: (
     primary: rgb(62,64,149),
     secondary: rgb(140,216,255),
     primary-dark:rgb(133,76,49),
-    secondary-dark: darken(rgb(255,20,147), 10%),
+    secondary-dark: darken(rgb(133,76,49), 20%),
     body: #f3f3f0,
 );
 
@@ -19,7 +19,7 @@ $desktop:768px;
 $font-body:'Sahitya', serif;
 $big-big-font: 5rem;
 $biggest-font-s: 4rem;
-$h1-font-size: 1.5rem;
+$h1-font-size: 2.5rem;
 $h2-font-size: 1.4rem;
 $h3-font-size: 1.2rem;
 $regular-font: .94rem;

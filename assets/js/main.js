@@ -36,4 +36,3 @@ test.addEventListener("mouseout", function( event ) {
   // highlight the mouseout target
   event.target.src = "assets/img/tiny.jpg";
   event.target.style.scale = "1";})
-  

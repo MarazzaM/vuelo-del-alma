@@ -12314,5 +12314,19 @@ article {
 
 .footer-container {
   background: #8cd8ff;
+  text-align: center;
+  color: black;
+  list-style: none;
+  margin: auto;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.footer-container #btnfooter {
+  color: #854c31;
 }
 /*# sourceMappingURL=main.css.map */

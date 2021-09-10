@@ -235,4 +235,16 @@ article{
 }
 .footer-container{
     background: color(secondary);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    list-style: none;
+    margin:auto;
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        list-style:none;
+    }
+    #btnfooter{
+        color: color(primary-dark);
+    }
 }

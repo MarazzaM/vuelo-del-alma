@@ -12069,6 +12069,13 @@ article {
   margin-top: 1rem;
 }
 
+.card-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
 @media screen and (min-width: 768px) {
   .parent {
     display: -ms-grid;
@@ -12244,11 +12251,12 @@ article {
 }
 
 .div1about {
-  background: url(/assets/img/gatt.jpg);
+  background: url(/assets/img/azucena.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  width: 300px;
-  height: 600px;
+  background-size: cover;
+  border-radius: 2rem;
+  height: 500px;
 }
 
 .about-me {

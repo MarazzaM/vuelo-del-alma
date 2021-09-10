@@ -98,6 +98,12 @@ article{
     margin: $mb-1;
     margin-top: $mb-2;
 }
+.card-title{
+    font-size: $h2-font-size;
+    text-transform: uppercase;
+    letter-spacing: $normal-spacing;
+    font-weight: $font-media;
+}
 //grid en pc
   @media screen and (min-width:$desktop){
     .parent {
@@ -216,11 +222,12 @@ article{
 }
 
 .div1about{
-    background: url(/assets/img/gatt.jpg);
+    background: url(/assets/img/azucena.jpeg);
     background-repeat: no-repeat;
     background-position:center;
-    width:300px;
-    height:600px;
+    background-size: cover;
+    border-radius: $mb-4;
+    height:500px;
 }
 .about-me{
     text-align:center;

@@ -160,6 +160,19 @@ article{
 #cardone{
     transition: all 0.3s ease;
 }
+/*========== VERTICAL CARDS ==========*/
+
+.group-22{
+    border-radius: $mb-3;
+    .img-vert{
+        border-radius: $mb-3;
+        transition: all 0.3s ease;
+        &:hover{
+            scale: 1.1;
+            z-index: 2;
+        }
+    }
+}
 /*========== BOTON FLOTANTE INSTA ==========*/
 .ig {
     color: black;

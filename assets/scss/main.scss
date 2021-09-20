@@ -242,12 +242,9 @@ article{
     margin-top: 1rem;
 }
 .div1about{
-    background: url(/assets/img/azucena.jpeg);
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-    border-radius: $mb-4;
-    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about-me{
     text-align:center;

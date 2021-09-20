@@ -1,9 +1,15 @@
 /*========== fonts ==========*/
 @import url('https://fonts.googleapis.com/css2?family=Sahitya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 /*========== shortcuts function ==========*/
 @function color($color-name){
     @return map-get($colors,$color-name)
 };
+@mixin desktop {
+    @media(min-width: #{$desktop}){
+        @content;
+    }
+}
 $colors: (
     primary: rgb(62,64,149),
     secondary: rgb(140,216,255),
@@ -17,8 +23,9 @@ $desktop:768px;
 //Fuente
 
 $font-body:'Sahitya', serif;
+$font-hero:'Allison', cursive;
 $big-big-font: 5rem;
-$biggest-font-s: 4rem;
+$biggest-font-s: 9rem;
 $h1-font-size: 2.5rem;
 $h2-font-size: 1.4rem;
 $h3-font-size: 1.2rem;
@@ -50,7 +57,7 @@ $z-fixed:100;
 
 @media screen and (min-width: $desktop){
 $big-big-font:5rem;
-$biggest-font-s: 4rem;
+$biggest-font-s:1rem;
 $h1-font-size: 2.25rem;
 $h2-font-size: 1.5rem;
 $h3-font-size: 1.3rem;
